@@ -1,0 +1,84 @@
+body {    
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101,0,94,1) 1%, rgba(60,132,206,1) 68%, rgba(48,238,226,1) 88%, rgba(255,25,25,1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+div {
+    display: block;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+hr {
+    width: 10%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #21ffff;
+    border-width: 10px;
+}
+.wave {
+    text-align: center;
+    align-items: center;
+}
+.about {
+    text-align: center;
+    align-items: center;
+}
+.skills {
+    text-align: center;
+    align-items: center;
+}
+.image
+{
+    margin-top: 75px;
+    height: 350px;
+    position:static;
+    right: 400px;
+    top: 100px;
+}
+h1 {
+    position: relative;
+    margin: 40px auto 0 auto;
+    font-size: 500%;
+    font-family: 'Sacramento', cursive;
+    color: #0d1a54;
+}
+h3 {
+    position: relative;
+    margin: 40px auto 0 auto;
+    font-size: 200%;
+    color: #060b40;
+}
+h2 {
+    bottom: 30px;
+    position: relative;
+    margin: 40px auto 0 auto;
+    font-size: 250%;
+    color: #060b40;
+}
+h4 {
+    position: relative;
+    margin: 40px auto 0 auto;
+    font-size: 170%;
+    color: #060b40;
+}
+li {
+    list-style: none;
+    position: relative;
+    margin: 15px auto 0 auto;
+    font-size: 170%;
+    color: #060b40;
+}
