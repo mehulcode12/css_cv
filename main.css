@@ -1,4 +1,4 @@
-body {    
+.wave {    
     position: relative;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
@@ -6,6 +6,7 @@ body {
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
+    margin: 0;
 }
 div {
     display: block;
@@ -26,16 +27,27 @@ hr {
     width: 10%;
     border-style: none;
     border-top-style: dotted;
-    border-color: #21ffff;
+    border-color: #07077f;
     border-width: 10px;
 }
 .wave {
     text-align: center;
     align-items: center;
+    margin: 0;
+}
+.mid { 
+    background-color: #96ffff;
+}
+.hi {
+    width: 20%;
+    float: right;
+    margin: auto 50px auto auto;
 }
 .about {
     text-align: center;
     align-items: center;
+    margin-left: 100px;
+    margin-right: 75px;
 }
 .skills {
     text-align: center;
@@ -63,11 +75,12 @@ h3 {
     color: #060b40;
 }
 h2 {
-    bottom: 30px;
+    bottom: 60px;
     position: relative;
     margin: 40px auto 0 auto;
-    font-size: 250%;
+    font-size: 300%;
     color: #060b40;
+    margin-bottom: 70px;
 }
 h4 {
     position: relative;
@@ -81,4 +94,69 @@ li {
     margin: 15px auto 0 auto;
     font-size: 170%;
     color: #060b40;
+}
+
+.s1 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 80px;
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #060b40;
+}
+.s2 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 80px;
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #060b40;
+}
+.s3 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 80px;
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #060b40;
+}
+.s4 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 80px;
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #060b40;
+}
+.s5 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 80px;
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #060b40;
+}
+.s6 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 80px;
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #060b40;
+}
+
+
+
+.project {
+    align-items: center;
+    text-align: center;
+}
+#tp1 {
+    font-size: 200%;
+}
+#pp1 {
+    font-size: 100%;
+}
+#pp2 {
+    font-size: 100%;
 }
